@@ -81,6 +81,7 @@ Vault Root
 │
 ├── 80 - Reference/            Vault infrastructure and operational docs
 ├── 90 - Templates/            Daily Note, Weekly Note (plain markdown — no plugin)
+├── 95 - Journal/              Freeform journal entries (YYYY-MM-DD HHMM - setting.md)
 └── 99 - Archive/              Completed backlog items (read-only reference)
 ```
 
