@@ -54,6 +54,7 @@ obsidian-personal-scrum-vault/
 │   ├── Daily Note.md          Daily standup + task template
 │   └── Weekly Note.md         Sprint planning + retro template
 │
+├── 95 - Journal/              Freeform journal entries (YYYY-MM-DD HHMM - setting.md)
 └── 99 - Archive/              Completed backlog items (read-only)
 ```
 
