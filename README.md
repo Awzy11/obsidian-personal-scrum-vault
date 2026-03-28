@@ -140,18 +140,19 @@ Optional plugins that pair well with this system:
 
 ## AI Enhancement (Optional)
 
-This vault includes a `CLAUDE.md` context file and setup guide for [Claude Code](https://claude.ai/code) users who want AI-assisted workflow automation.
+This vault includes `CLAUDE.md` and `GEMINI.md` context files for [Claude Code](https://claude.ai/code) and [Gemini CLI](https://github.com/google-gemini/gemini-cli) users who want AI-assisted workflow automation.
 
 **What it enables:**
-- Sprint planning from your terminal — Claude reads your backlog, helps you prioritize, and builds your weekly note
+- Sprint planning from your terminal — the AI reads your backlog, helps you prioritize, and builds your weekly note
 - Daily standup automation — creates your daily note, sets Today's 3, pulls tasks from the sprint
 - End-of-day closeout — processes your Captures into Inbox, updates backlog status
 - Natural language vault queries — "what's in my backlog?" "summarize this week's captures"
 
 **How it works:**
-1. `CLAUDE.md` in the vault root gives Claude context about your system, role, and priorities
-2. The Obsidian MCP server connects Claude Code to your live vault via the Obsidian REST API
-3. You customize `CLAUDE.md` with your actual context — Claude reads it at the start of every session
+
+1. `CLAUDE.md` (Claude Code) or `GEMINI.md` (Gemini CLI) in the vault root gives the AI context about your system, role, and priorities
+2. The Obsidian MCP server connects the AI CLI to your live vault via the Obsidian REST API
+3. You customize the context file with your actual details — the AI reads it at the start of every session
 
 **Setup:** see `80 - Reference/Claude Code Setup.md` for full instructions. Takes about 20 minutes and works on Mac, Linux, and Windows (WSL).
 
